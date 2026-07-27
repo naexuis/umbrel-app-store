@@ -8,7 +8,7 @@ services:
     image: bch-rental-engine:umbrel-test
     restart: unless-stopped
     volumes:
-      - ${APP_DATA_DIR}/config:/root/bch_rental_engine/config
+      - ${APP_DATA_DIR}/config:/config
       - ${APP_DATA_DIR}/state:/root/bch_rental_engine/state
       - ${APP_DATA_DIR}/logs:/root/bch_rental_engine/logs
 
@@ -24,6 +24,6 @@ services:
     depends_on:
       - engine
     volumes:
-      - ${APP_DATA_DIR}/config:/root/bch_rental_engine/config
+      - ${APP_DATA_DIR}/config:/config
       - ${APP_DATA_DIR}/state:/root/bch_rental_engine/state
       
