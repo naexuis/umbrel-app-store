@@ -2,7 +2,7 @@ manifestVersion: 1
 id: naexuis-bch-rental-engine
 category: bitcoin
 name: BCH Rental Engine
-version: "0.1.4"
+version: "0.1.5"
 tagline: BCH solo rental opportunity monitor
 description: >-
   Monitors Bitcoin Cash network conditions, rental pricing, expected block
